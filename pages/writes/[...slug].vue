@@ -1,12 +1,6 @@
 <template>
     <AContainer>
         <ASection>
-            <AnArticle>
-                section why writes
-            </AnArticle>
-        </ASection>
-        <ASection>
-            <ATag>tagx, tagy, tagz</ATag>
             <ContentDoc v-slot="{ doc }">
                 <ContentRenderer :value="doc" />
             </ContentDoc>
@@ -14,6 +8,5 @@
                 <h1>Document not found</h1>
             </template>
         </ASection>
-        <ASection> section outro writes </ASection>
     </AContainer>
 </template>
