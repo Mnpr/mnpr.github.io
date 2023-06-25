@@ -1,16 +1,10 @@
 # sudesh.io
 
-- [Nuxt3](https://nuxt.com)
-
 ## Setup
 
-install dependencies:
+install dependencies: npm | pnpm | yarn
 
 ```bash
-npm install
-||
-pnpm install
-||
 yarn install
 ```
 
@@ -19,10 +13,6 @@ yarn install
 @`http://localhost:3000`:
 
 ```bash
-npm run dev
-||
-pnpm run dev
-||
 yarn dev
 ```
 
@@ -30,21 +20,14 @@ yarn dev
 
 
 ```bash
-npm run build
-||
-pnpm run build
-||
 yarn build
 ```
 
 Local production build preview:
 
 ```bash
-npm run preview
-||
-pnpm run preview
-||
 yarn preview
 ```
 
-more info @[deployment documentation](https://nuxt.com/docs/getting-started/deployment).
+___
+- with [Nuxt](https://nuxt.com), @[deploy docs](https://nuxt.com/docs/getting-started/deployment).
