@@ -1,31 +1,30 @@
+<script setup>
+const colorMode = useColorMode()
+const isDark = computed({
+    get() {
+        return colorMode.value === 'dark'
+    },
+    set() {
+        colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+    }
+})
+</script>
+
 <template>
     <footer>
-        <ul>
-            <li>
-                <a href="https://github.com/Mnpr" target="_blank">
-                    <UIcon name="i-heroicons-code-bracket" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/sud3sh/" target="_blank">
-                    <UIcon name="i-heroicons-briefcase"/>
-                </a>
-            </li>
-            <li>
-                <a href="https://unsplash.com/@sud3sh_" target="_blank">
-                    <UIcon name="i-heroicons-photo"/>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/@sud3sh_" target="_blank">
-                    <UIcon name="i-heroicons-video-camera"/>
-                </a>
-            </li>
-            <li>
-                <a href="https://soundcloud.com/xpectron" target="_blank">
-                    <UIcon name="i-heroicons-musical-note"/>
-                </a>
-            </li>
-        </ul>
+        <ASection class="flex justify-center">
+            <span>
+                🤍💚
+                <ClientOnly>
+                    <UButton :icon="isDark ? 'i-heroicons-moon' : 'i-heroicons-sun'" variant="ghost" aria-label="Theme"
+                        @click="isDark = !isDark" />
+
+                    <template #fallback>
+                        <span class="w-8 h-8" />
+                    </template>
+                </ClientOnly>
+                💙🖤
+            </span>
+        </ASection>
     </footer>
 </template>

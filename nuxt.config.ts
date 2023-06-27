@@ -4,7 +4,6 @@ export default defineNuxtConfig({
     modules: [
         '@nuxthq/ui',
         '@nuxt/content',
-        '@nuxtjs/tailwindcss',
     ],
     colorMode: {
         preference: 'light'
@@ -16,11 +15,5 @@ export default defineNuxtConfig({
                 dark: 'github-dark',
             }
         },
-        markdown: {
-            toc: {
-                depth: 5,
-                searchDepth: 5
-            },
-        }
     },
 })

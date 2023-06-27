@@ -1,11 +1,26 @@
 <script setup>
 const appConfig = useAppConfig()
+useHead({
+    title: "sud3sh_oi",
+    meta: [
+        { name: 'description', content: 'a social IO interface' }
+    ],
+})
 </script>
 
 <template>
-    <div>
+    <AContainer class="main-tree-container">
         <TheHeader />
+        <ASection class="main-page-section">
             <NuxtPage />
+        </ASection>
         <LazyTheFooter />
-    </div>
+    </AContainer>
 </template>
+
+<style scoped>
+
+.main-page-section {
+    @apply flex justify-center;
+}
+</style>
