@@ -1,13 +1,13 @@
 <template>
     <AContainer>
-        <ASection class="text-5xl writes-section">
-            <h2><u>Articles</u></h2>
+        <ASection class="text-5xl portfolio-section">
+            <h2><u>Portfolio</u></h2>
         </ASection>
-        <ASection class="text-xl writes-section">
+        <ASection class="text-xl portfolio-section">
             intro note sec.
         </ASection>
         <hr />
-        <ASection class="text-xl writes-section">
+        <ASection class="text-xl portfolio-section">
             <ContentDoc v-slot="{ doc }">
                 <template>
                     <h1>{{ doc.title }}</h1>
@@ -24,14 +24,14 @@
             </ContentDoc>
         </ASection>
         <hr />
-        <ASection class="text-xl writes-section">
+        <ASection class="text-xl portfolio-section">
             foot note sec.
         </ASection>
     </AContainer>
 </template>
 
 <style scoped>
-.writes-section {
+.portfolio-section {
     @apply flex justify-center;
 }
 </style>

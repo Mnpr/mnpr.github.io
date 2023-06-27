@@ -12,18 +12,18 @@ const isDark = computed({
 
 <template>
     <footer>
+        <hr />
         <ASection class="flex justify-center">
-            <span>
-                🤍💚
+            <span class="text-2xl">
+                🤍💙
                 <ClientOnly>
                     <UButton :icon="isDark ? 'i-heroicons-moon' : 'i-heroicons-sun'" variant="ghost" aria-label="Theme"
                         @click="isDark = !isDark" />
-
                     <template #fallback>
                         <span class="w-8 h-8" />
                     </template>
                 </ClientOnly>
-                💙🖤
+                💚🖤
             </span>
         </ASection>
     </footer>

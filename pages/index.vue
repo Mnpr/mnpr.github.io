@@ -2,25 +2,24 @@
     <main>
         <AContainer>
             <ASection class="home-block-section">
-                <h1 class="text-8xl"> Hello, नमस्ते, Grüße ! 🕸️</h1>
+                <h1 class="text-7xl"> Hello, नमस्ते, Grüße!</h1>
             </ASection>
             <ASection class="home-block-section">
-                <p class="flex justify-center text-3xl">
-                    from Sudesh 👨🏻‍🎓🌻 {📜 🤖 🌐}
-                </p>
+                <span class="text-4xl">
+                    👨🏻‍🎓🌻 { 📜.🤖.🌐 };
+                </span>
             </ASection>
+            <hr />
             <ASection class="home-block-section">
-                <p class="flex">
-                    Invested in ways of Automaton, turtle efforts towards turning world conserves into wonder.
-                </p>
-                <p>Supporting free*(libére), open-source, distributed systems and shared knows.</p>
+                <span class="text-2xl">from Sudesh.io</span>
             </ASection>
+            <hr />
         </AContainer>
     </main>
 </template>
 
 <style scoped>
-.block-section {
+.home-block-section {
     @apply flex justify-center;
 }
 </style>
