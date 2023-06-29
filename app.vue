@@ -3,18 +3,19 @@ const appConfig = useAppConfig()
 </script>
 
 <template>
-    <AContainer>
-        <TheHeader />
-        <ASection class="main-page-section">
-            <NuxtPage />
-        </ASection>
-        <LazyTheFooter />
-    </AContainer>
+    <UCard>
+        <AContainer>
+            <TheHeader />
+            <ASection class="main-page-container">
+                <NuxtPage />
+            </ASection>
+            <TheFooter />
+        </AContainer>
+    </UCard>
 </template>
 
 <style scoped>
-
-.main-page-section {
+.main-page-container {
     @apply flex justify-center;
 }
 </style>

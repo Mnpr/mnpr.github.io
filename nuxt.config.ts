@@ -1,13 +1,13 @@
 // https://content.nuxtjs.org/api/configuration
 export default defineNuxtConfig({
-    devtools: { enabled: false },
-    app: {
-        baseURL: '/mnpr.github.io/'
-    },
+    devtools: { enabled: true },
     modules: [
         '@nuxthq/ui',
         '@nuxt/content',
     ],
+    ui: {
+        safelistColors: ['teal']
+    },
     colorMode: {
         preference: 'light'
     },

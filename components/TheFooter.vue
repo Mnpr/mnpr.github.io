@@ -11,20 +11,21 @@ const isDark = computed({
 </script>
 
 <template>
-    <footer>
-        <hr />
-        <ASection class="flex justify-center">
-            <span class="text-2xl">
+    <AContainer class="flex justify-center">
+        <footer>
+
+            <hr />
+            <span>
                 🤍💙
                 <ClientOnly>
-                    <UButton :icon="isDark ? 'i-heroicons-moon' : 'i-heroicons-sun'" variant="ghost" aria-label="Theme"
-                        @click="isDark = !isDark" />
+                    <UButton :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" variant="ghost"
+                        aria-label="Theme" @click="isDark = !isDark" />
                     <template #fallback>
                         <span class="w-8 h-8" />
                     </template>
                 </ClientOnly>
                 💚🖤
             </span>
-        </ASection>
-    </footer>
+        </footer>
+    </AContainer>
 </template>

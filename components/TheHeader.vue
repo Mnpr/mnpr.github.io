@@ -1,6 +1,6 @@
 <template>
-    <header>
-        <ASection>
+    <AContainer>
+        <header>
             <nav>
                 <ul class="nav-links">
                     <li class="nav-link">
@@ -15,13 +15,13 @@
                     </li>
                 </ul>
             </nav>
-        </ASection>
-        <hr />
-    </header>
+            <hr />
+        </header>
+    </AContainer>
 </template>
 <style scoped>
 .nav-links {
-    @apply flex justify-between mr-auto;
+    @apply flex justify-between;
 }
 
 .nav-link {

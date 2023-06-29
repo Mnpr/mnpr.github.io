@@ -1,38 +1,45 @@
+<script setup>
+const links = [{
+    label: 'profile',
+    avatar: {
+        src: ''
+    },
+    to: '/portfolio',
+    badge: 1
+},
+{
+    label: 'writes',
+    icon: 'i-heroicons-pencil-square',
+    to: '/writes'
+},
+{
+    label: 'gallery',
+    icon: 'i-heroicons-square-3-stack-3d',
+    to: '/gallery'
+},
+{
+    label: 'libere',
+    icon: 'i-heroicons-sparkles',
+    to: '/libere'
+}]
+</script>
 <template>
-    <AContainer>
-        <ASection class="text-5xl about-block-section">
-            <h2><u>About</u></h2>
-        </ASection>
+    <AContainer class="about-page-container">
         <ASection class="about-block-section">
-            <ul class="about-links">
-                <li class="about-link">
-                    <NuxtLink to="/portfolio">
-                        <UIcon name="i-heroicons-briefcase" />
-                    </NuxtLink>
-                </li>
-                <li class="about-link">
-                    <NuxtLink to="/writes">
-                        <UIcon name="i-heroicons-pencil-square" />
-                    </NuxtLink>
-                </li>
-                <li class="about-link">
-                    <NuxtLink to="/gallery">
-                        <UIcon name="i-heroicons-square-3-stack-3d" />
-                    </NuxtLink>
-                </li>
-                <li class="about-link">
-                    <NuxtLink to="/libere">
-                        <UIcon name="i-heroicons-sparkles" />
-                    </NuxtLink>
-                </li>
-            </ul>
-        </ASection>
-        <ASection class="text-xl about-block-section">
-            Invested in ways of Automaton, turtle push forth, turning conserve into a place of wonder O :).
+            <h2 class="text-5xl"><u>About</u></h2>
         </ASection>
         <hr />
         <ASection class="about-block-section">
-            <AContainer>
+            <span class="text-xl">Invested in ways of Automaton, turtle embarks forth, turning world conserves into space of
+                wonders O:).</span>
+        </ASection>
+        <hr />
+        <ASection>
+            <UVerticalNavigation :links="links" />
+        </ASection>
+        <hr />
+        <ASection class="about-block-section">
+            <AContainer class="about-content-container">
                 <ContentDoc v-slot="{ doc }">
                     <ContentRenderer class="text-xl" :value="doc" />
                 </ContentDoc>
@@ -48,15 +55,15 @@
     </AContainer>
 </template>
 <style scoped>
+.about-page-conainer {
+    @apply flex;
+}
+
 .about-block-section {
     @apply flex justify-center;
 }
 
-.about-links {
-    @apply flex;
-}
-
-.about-link {
-    @apply text-4xl;
+.about-content-container {
+    @apply text-xl;
 }
 </style>

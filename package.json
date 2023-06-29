@@ -7,14 +7,14 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "deploy": "nuxt generate && touch .output/public/.nojekyll && gh-pages --dotfiles -d .output/public"
+        "deploy": "gh-pages  -d .output/public"
     },
     "devDependencies": {
-        "gh-pages": "^4.0.0",
         "@nuxt/content": "^2.7.0",
         "@nuxt/devtools": "latest",
-        "@nuxthq/ui": "^2.4.1",
+        "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
         "@types/node": "^18",
+        "gh-pages": "^4.0.0",
         "nuxt": "^3.5.2"
     }
 }

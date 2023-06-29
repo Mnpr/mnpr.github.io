@@ -1,6 +1,6 @@
 <template>
-    <main>
-        <AContainer>
+    <AContainer>
+        <main>
             <ASection class="home-block-section">
                 <h1 class="text-7xl"> Hello, नमस्ते, Grüße!</h1>
             </ASection>
@@ -13,9 +13,8 @@
             <ASection class="home-block-section">
                 <span class="text-2xl">from Sudesh.io</span>
             </ASection>
-            <hr />
-        </AContainer>
-    </main>
+        </main>
+    </AContainer>
 </template>
 
 <style scoped>
