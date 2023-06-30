@@ -4,11 +4,6 @@
             <ASection class="home-block-section">
                 <h1 class="text-7xl"> Hello, नमस्ते, Grüße!</h1>
             </ASection>
-            <ASection class="home-block-section">
-                <span class="text-4xl">
-                    👨🏻‍🎓🌻 { 📜.🤖.🌐 };
-                </span>
-            </ASection>
             <hr />
             <ASection class="home-block-section">
                 <span class="text-2xl">from Sudesh.io</span>

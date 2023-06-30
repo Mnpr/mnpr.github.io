@@ -2,10 +2,9 @@
 const links = [{
     label: 'profile',
     avatar: {
-        src: ''
+        src: 'https://avatars.githubusercontent.com/u/12827390?v=4'
     },
     to: '/portfolio',
-    badge: 1
 },
 {
     label: 'writes',
@@ -16,11 +15,6 @@ const links = [{
     label: 'gallery',
     icon: 'i-heroicons-square-3-stack-3d',
     to: '/gallery'
-},
-{
-    label: 'libere',
-    icon: 'i-heroicons-sparkles',
-    to: '/libere'
 }]
 </script>
 <template>
@@ -28,25 +22,24 @@ const links = [{
         <ASection class="about-block-section">
             <h2 class="text-5xl"><u>About</u></h2>
         </ASection>
-        <hr />
         <ASection class="about-block-section">
-            <span class="text-xl">Invested in ways of Automaton, turtle embarks forth, turning world conserves into space of
-                wonders O:).</span>
-        </ASection>
-        <hr />
-        <ASection>
-            <UVerticalNavigation :links="links" />
+            <span class="text-2xl text-center">Invested in ways of Automaton, turtle embarks forth, turning world conserve
+                into space of wonders O:).</span>
         </ASection>
         <hr />
         <ASection class="about-block-section">
             <AContainer class="about-content-container">
                 <ContentDoc v-slot="{ doc }">
-                    <ContentRenderer class="text-xl" :value="doc" />
+                    <ContentRenderer class="text-2xl" :value="doc" />
                 </ContentDoc>
                 <template #not-found>
                     <h1>Document not found</h1>
                 </template>
             </AContainer>
+        </ASection>
+        <hr />
+        <ASection>
+            <UVerticalNavigation :links="links" />
         </ASection>
         <hr />
         <ASection class="text-xl about-block-section">
