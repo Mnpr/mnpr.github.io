@@ -2,7 +2,7 @@
 const links = [{
     label: 'profile',
     avatar: {
-        src: 'https://avatars.githubusercontent.com/u/12827390?v=4'
+        src: 'https://avatars.githubusercontent.com/u/12827390'
     },
     to: '/portfolio',
 },
@@ -23,12 +23,12 @@ const links = [{
             <h2 class="text-5xl"><u>About</u></h2>
         </ASection>
         <ASection class="about-block-section">
-            <span class="text-2xl text-center">Invested in ways of Automaton, turtle embarks forth, turning world conserve
-                into space of wonders O:).</span>
+            <span class="text-2xl text-center">Invested in ways of Information Automaton, turtle embarks forth, turning conserve
+                into wonders O:).</span>
         </ASection>
         <hr />
         <ASection class="about-block-section">
-            <AContainer class="about-content-container">
+            <AContainer>
                 <ContentDoc v-slot="{ doc }">
                     <ContentRenderer class="text-2xl" :value="doc" />
                 </ContentDoc>
@@ -38,7 +38,7 @@ const links = [{
             </AContainer>
         </ASection>
         <hr />
-        <ASection>
+        <ASection class="text-2x  about-block-section">
             <UVerticalNavigation :links="links" />
         </ASection>
         <hr />
@@ -56,7 +56,4 @@ const links = [{
     @apply flex justify-center;
 }
 
-.about-content-container {
-    @apply text-xl;
-}
 </style>

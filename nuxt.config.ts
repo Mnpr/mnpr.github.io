@@ -6,10 +6,10 @@ export default defineNuxtConfig({
         '@nuxt/content',
     ],
     ui: {
-        safelistColors: ['teal']
+        icons: ['simple-icons']
     },
     colorMode: {
-        preference: 'light'
+        preference: 'system'
     },
     content: {
         highlight: {
