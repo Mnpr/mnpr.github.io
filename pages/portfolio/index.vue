@@ -3,8 +3,8 @@
         <ASection class="text-5xl portfolio-section">
             <h2><u>Portfolio</u></h2>
         </ASection>
-        <ASection class="text-xl portfolio-section">
-            intro note sec.
+        <ASection class="text-2xl portfolio-section">
+            >>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
@@ -24,8 +24,19 @@
             </ContentDoc>
         </ASection>
         <hr />
-        <ASection class="text-xl portfolio-section">
-            foot note sec.
+        <Section class="portfolio-section">
+            <span class="text-3xl">
+                <NuxtLink to="https://github.com/mnpr" target="_blank" class="out-link">
+                    <UIcon name="i-simple-icons-github" />
+                </NuxtLink>
+                <NuxtLink to="https://www.linkedin.com/in/mnpr" target="_blank" class="out-link">
+                    <UIcon name="i-simple-icons-linkedin" />
+                </NuxtLink>
+            </span>
+        </Section>
+        <hr />
+        <ASection class="portfolio-section">
+            <span class="text-xs"><i>*subject_to_change*</i></span>
         </ASection>
     </AContainer>
 </template>
@@ -33,5 +44,9 @@
 <style scoped>
 .portfolio-section {
     @apply flex justify-center;
+}
+
+.out-link {
+    @apply text-2xl mr-1;
 }
 </style>

@@ -23,7 +23,8 @@ const links = [{
             <h2 class="text-5xl"><u>About</u></h2>
         </ASection>
         <ASection class="about-block-section">
-            <span class="text-2xl text-center">Invested in ways of Information Automaton, turtle embarks forth, turning conserve
+            <span class="text-2xl text-center">Invested in ways of Information Automaton, turtle embarks forth, turning
+                conserve
                 into wonders O:).</span>
         </ASection>
         <hr />
@@ -38,12 +39,16 @@ const links = [{
             </AContainer>
         </ASection>
         <hr />
-        <ASection class="text-2x  about-block-section">
+        <ASection class="about-block-section">
             <UVerticalNavigation :links="links" />
         </ASection>
         <hr />
-        <ASection class="text-xl about-block-section">
-            foot note: reach.me
+        <ASection class="about-block-section">
+            footnote: reachme@bla.xyz
+        </ASection>
+        <hr />
+        <ASection class="about-block-section">
+            <span class="text-xs"><i>*subject_to_change*</i></span>
         </ASection>
     </AContainer>
 </template>
@@ -55,5 +60,4 @@ const links = [{
 .about-block-section {
     @apply flex justify-center;
 }
-
 </style>

@@ -27,6 +27,18 @@
         <ASection class="text-xl writes-section">
             foot note sec.
         </ASection>
+        <!-- <hr />
+        <Section class="writes-section">
+            <span class="text-3xl">
+                <NuxtLink to="https://twitter.com/@sud3sh_" target="_blank">
+                    <UIcon name="i-simple-icons-twitter" />
+                </NuxtLink>
+            </span>
+        </Section> -->
+        <hr />
+        <ASection class="writes-section">
+            <span class="text-xs"><i>*subject_to_change*</i></span>
+        </ASection>
     </AContainer>
 </template>
 
