@@ -6,9 +6,7 @@
                 </u></h2>
         </ASection>
         <ASection class="text-2xl portfolio-section">
-            <p>
-                >> 👨‍🎓 MIE Student  [ Research, Design, Engineering & Opearations ]
-            </p>
+            <span>MIE Student: Research, Design, Engineering & Ops. </span>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
