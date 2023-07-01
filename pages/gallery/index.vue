@@ -4,7 +4,7 @@
             <h2><u>Gallery</u></h2>
         </ASection>
         <ASection class="text-xl gallery-section">
-            intro note sec.
+            .
         </ASection>
         <hr />
         <ASection class="text-xl gallery-section">
@@ -31,13 +31,13 @@
                 <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-unsplash" />
                 </NuxtLink>
-                <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
+                <!-- <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-instagram" />
-                </NuxtLink>
+                </NuxtLink> -->
                 <!-- <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-soundcloud" />
-                </NuxtLink>
-                <NuxtLink to="https://www.youtube.com/@sud3sh_" target="_blank" class="out-link">
+                </NuxtLink> -->
+                <!-- <NuxtLink to="https://www.youtube.com/@sud3sh_" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-youtube" />
                 </NuxtLink> -->
             </span>

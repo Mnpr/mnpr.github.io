@@ -1,10 +1,14 @@
 <template>
     <AContainer>
         <ASection class="text-5xl portfolio-section">
-            <h2><u>Portfolio</u></h2>
+            <h2><u>
+                    <UIcon name="i-heroicons-briefcase" />
+                </u></h2>
         </ASection>
         <ASection class="text-2xl portfolio-section">
-            >>
+            <p>
+                >> 👨‍🎓 MIE Student  [ Research, Design, Engineering & Opearations ]
+            </p>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
@@ -36,7 +40,10 @@
         </Section>
         <hr />
         <ASection class="portfolio-section">
-            <span class="text-xs"><i>*subject_to_change*</i></span>
+            <p class="text-xs"><i>
+                    Causes: Arts and Culture • Education • Environment • Health • Science and Technology • Social
+                    Services</i>
+            </p>
         </ASection>
     </AContainer>
 </template>

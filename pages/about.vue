@@ -23,9 +23,9 @@ const links = [{
             <h2 class="text-5xl"><u>About</u></h2>
         </ASection>
         <ASection class="about-block-section">
-            <span class="text-2xl text-center">Invested in ways of Information Automaton, turtle embarks forth, turning
-                conserve
-                into wonders O:).</span>
+            <span class="text-2xl text-center">
+                Invested in ways of ⚡ Automata, distilling simplicity out of evergrowing information and persued complexity, turtle and part-time embarks forth, turning conserves of today into wonders O:).
+            </span>
         </ASection>
         <hr />
         <ASection class="about-block-section">

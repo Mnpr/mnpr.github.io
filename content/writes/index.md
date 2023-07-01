@@ -1,1 +1,2 @@
-[[first-post](/writes/first-post)] and [[second-post](/writes/second-post)]
+
+"incomplete" [[first-post](/writes/first-post)], [[second-post](/writes/second-post)]

@@ -2,7 +2,7 @@
     <AContainer>
         <main>
             <ASection class="home-block-section">
-                <h1 class="text-7xl"> Hello, नमस्ते, Grüße!</h1>
+                <h1 class="text-7xl"> Hello . नमस्ते . Grüße!</h1>
             </ASection>
             <hr />
             <ASection class="home-block-section">

@@ -24,7 +24,7 @@ const isDark = computed({
                         <span class="w-8 h-8" />
                     </template>
                 </ClientOnly>
-                💚🖤
+                💜🖤
             </span>
         </footer>
     </AContainer>
