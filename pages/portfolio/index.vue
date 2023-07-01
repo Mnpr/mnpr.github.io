@@ -6,7 +6,7 @@
                 </u></h2>
         </ASection>
         <ASection class="text-2xl portfolio-section">
-            <span>MIE Student: Research, Design, Engineering & Ops. </span>
+            <span>MIE Student: ML Research, Design, Engineering & Ops. </span>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
@@ -39,8 +39,7 @@
         <hr />
         <ASection class="portfolio-section">
             <p class="text-xs"><i>
-                    Causes: Arts and Culture • Education • Environment • Health • Science and Technology • Social
-                    Services</i>
+                    <b>Causes:</b> Arts and Culture • Education • Environment • Health • Libéré src & Decentralized systems.</i>
             </p>
         </ASection>
     </AContainer>

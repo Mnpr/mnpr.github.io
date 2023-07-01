@@ -49,7 +49,7 @@ ___
 - [x] [230623] - init and source control functional skeleton
 - [x] [250623] - markdown content base index
 - [x] [280623] - deployed the first release
-- [x] [010623] - improved ui and content elements to minimal
+- [x] [010723] - improved ui and content elements to minimal
 - [ ] [050723] - content templates and DRY!, reusable composables and components
 
 *3. Deployment*

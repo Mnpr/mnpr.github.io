@@ -30,6 +30,10 @@ const links = [{
         </ASection>
         <hr />
         <ASection class="about-block-section">
+            <UVerticalNavigation :links="links" />
+        </ASection>
+        <hr />
+        <ASection class="about-block-section">
             <AContainer>
                 <ContentDoc v-slot="{ doc }">
                     <ContentRenderer class="text-2xl" :value="doc" />
@@ -41,11 +45,7 @@ const links = [{
         </ASection>
         <hr />
         <ASection class="about-block-section">
-            <UVerticalNavigation :links="links" />
-        </ASection>
-        <hr />
-        <ASection class="about-block-section">
-            footnote
+            .
         </ASection>
         <hr />
         <ASection class="about-block-section">

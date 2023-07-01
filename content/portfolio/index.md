@@ -1,1 +1,1 @@
-⚘ s/w Development {👨‍💻};
+⚘ s/w Developer {👨‍💻}; 📡
