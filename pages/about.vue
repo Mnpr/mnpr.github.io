@@ -24,7 +24,8 @@ const links = [{
         </ASection>
         <ASection class="about-block-section">
             <span class="text-2xl text-center">
-                Invested in ways of ⚡ Automata, distilling simplicity out of evergrowing information and persued complexity, turtle and part-time embarks forth, turning conserves of today into wonders O:).
+                Invested in ways of ⚡ Automata, distilling simplicity out of evergrowing information and persued complexity,
+                turtle and part-time embarks forth, turning conserves of today into wonders of tomorrow O:).
             </span>
         </ASection>
         <hr />
