@@ -4,7 +4,7 @@
             <h2><u>Gallery</u></h2>
         </ASection>
         <ASection class="text-xl gallery-section">
-            .
+            tags here...
         </ASection>
         <hr />
         <ASection class="text-xl gallery-section">

@@ -4,7 +4,7 @@
             <h2><u>Articles</u></h2>
         </ASection>
         <ASection class="text-xl writes-section">
-            list
+            tags here...
         </ASection>
         <hr />
         <ASection class="text-xl writes-section">

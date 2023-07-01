@@ -45,7 +45,7 @@ const links = [{
         </ASection>
         <hr />
         <ASection class="about-block-section">
-            footnote: reachme@bla.xyz
+            footnote
         </ASection>
         <hr />
         <ASection class="about-block-section">
