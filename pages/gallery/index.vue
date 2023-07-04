@@ -28,15 +28,15 @@
         <hr />
         <Section class="gallery-section">
             <span class="text-3xl">
-                <!-- <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link">
+                <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-unsplash" />
                 </NuxtLink>
-                <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
+                <!-- <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-instagram" />
                 </NuxtLink> -->
-                <!-- <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
+                <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-soundcloud" />
-                </NuxtLink> -->
+                </NuxtLink>
                 <!-- <NuxtLink to="https://www.youtube.com/@sud3sh_" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-youtube" />
                 </NuxtLink> -->
