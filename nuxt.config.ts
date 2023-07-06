@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxthq/ui',
         '@nuxt/content',
+        '@nuxt/image',
     ],
     ui: {
         icons: ['simple-icons']

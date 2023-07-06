@@ -24,22 +24,22 @@ ___
 *I. homepage*
 ___
 <
-![](/assets/img/ui-design/1.home.png)
+![home-page](/img/ui-design/1.home.png)
 
 *II. aboutpage*
 ___
 <
-![](/assets/img/ui-design/2.about.png)
+![about-page](/img/ui-design/2.about.png)
 
 *III. articles container* (tags, filters etc.)
 ___
 <
-![](/assets/img/ui-design/3.article_nav_filter.png)
+![content-index](/img/ui-design/3.article_nav_filter.png)
 
 *IV. an article*
 ---
 <
-![](/assets/img/ui-design/4.article.png)
+![an-article](/img/ui-design/4.article.png)
 
 *2. Development*
 ---
