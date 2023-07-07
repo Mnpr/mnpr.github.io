@@ -44,7 +44,7 @@
         </Section>
         <hr />
         <ASection class="gallery-section">
-            <span class="text-s"><i>**</i></span>
+            <span class="text-s"><i>*subject_to_change*</i></span>
         </ASection>
     </AContainer>
 </template>

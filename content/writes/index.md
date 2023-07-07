@@ -1,2 +1,2 @@
 
-"sample" [[first-post](/writes/first-post)], [[second-post](/writes/second-post)], [[log-design-to-prod](/writes/log)]
+"sample" [first](/writes/first-post), [second](/writes/second-post) page, [log](/writes/log)

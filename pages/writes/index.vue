@@ -1,10 +1,10 @@
 <template>
     <AContainer>
         <ASection class="text-5xl writes-section">
-            <h2><u>Articles</u></h2>
+            <h2><u>Blog</u></h2>
         </ASection>
         <ASection class="text-xl writes-section">
-            tags here...
+            ! self learning tags here...
         </ASection>
         <hr />
         <ASection class="text-xl writes-section">
@@ -27,14 +27,6 @@
         <ASection class="text-xl writes-section">
             foot note sec.
         </ASection>
-        <hr />
-        <Section class="writes-section">
-            <span class="text-3xl">
-                <NuxtLink to="https://twitter.com/@sud3sh_" target="_blank">
-                    <UIcon name="i-simple-icons-twitter" />
-                </NuxtLink>
-            </span>
-        </Section>
         <hr />
         <ASection class="writes-section">
             <span class="text-xs"><i>*subject_to_change*</i></span>

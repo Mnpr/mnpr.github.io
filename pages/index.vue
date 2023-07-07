@@ -6,9 +6,6 @@
             </ASection>
             <hr />
             <ASection class="home-block-section">
-                <span class="text-2xl">from Sudesh.io</span>
-            </ASection>
-            <ASection class="home-block-section">
                 <span class="text-2xl"> 👨‍🎓🇳🇵, 📍🇩🇪 </span>
             </ASection>
         </main>
