@@ -44,7 +44,7 @@
         </Section>
         <hr />
         <ASection class="gallery-section">
-            <span class="text-s"><i>*subject_to_change*</i></span>
+            <span class="text-s"><i>*subject_to_colors*</i></span>
         </ASection>
     </AContainer>
 </template>

@@ -34,9 +34,6 @@
                 <!-- <NuxtLink to="https://www.linkedin.com/in/mnpr" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
-                <NuxtLink to="https://twitter.com/sud3sh_" target="_blank" class="out-link">
-                    <UIcon name="i-simple-icons-twitter" />
-                </NuxtLink> -->
             </span>
         </Section>
         <hr />
