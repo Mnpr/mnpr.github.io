@@ -48,9 +48,8 @@ ___
 
 - [x] [230623] - init and source control functional skeleton
 - [x] [250623] - markdown content base index
-- [x] [280623] - deployed the first release
 - [x] [010723] - improved ui and content elements to minimal
-- [ ] [050723] - content templates and DRY!, reusable composables and components
+- [ ] [090723] - content templates and DRY!, reusable composables and components
 
 *3. Deployment*
 ---
@@ -60,6 +59,7 @@ ___
 - [x] [250623] - first preview alpha version comitted
 - [x] [250623] - domain name and hosting services registration
 - [x] [280623] - setting up together, rerouting, ssl cert.
+- [x] [280623] - deployed the first release.
 - [x] [010723] - deployed updated ui and minimal elements.
 
 
