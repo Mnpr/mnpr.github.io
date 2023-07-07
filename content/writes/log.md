@@ -49,6 +49,7 @@ ___
 - [x] [230623] - init and source control functional skeleton
 - [x] [250623] - markdown content base index
 - [x] [010723] - improved ui and content elements to minimal
+- [x] [070723] - simplify about and homepage and gallery contents
 - [ ] [090723] - content templates and DRY!, reusable composables and components
 
 *3. Deployment*
