@@ -6,11 +6,11 @@ const links = [{
     },
     to: '/portfolio',
 },
-{
-    label: 'writes',
-    icon: 'i-heroicons-pencil-square',
-    to: '/writes'
-},
+// {
+//     label: 'writes',
+//     icon: 'i-heroicons-pencil-square',
+//     to: '/writes'
+// },
 {
     label: 'gallery',
     icon: 'i-heroicons-square-3-stack-3d',

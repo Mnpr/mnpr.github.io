@@ -31,7 +31,7 @@
                 <NuxtLink to="https://github.com/mnpr" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-github" />
                 </NuxtLink>
-                <!-- <NuxtLink to="https://www.linkedin.com/in/mnpr" target="_blank" class="out-link">
+                <NuxtLink to="https://www.linkedin.com/in/mnpr" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
             </span>
