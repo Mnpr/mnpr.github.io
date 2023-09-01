@@ -4,7 +4,7 @@
             <h2><u>Gallery</u></h2>
         </ASection>
         <ASection class="text-xl gallery-section">
-            🦎
+            ~
         </ASection>
         <hr />
         <ASection class="text-xl gallery-section">
@@ -44,7 +44,7 @@
         </Section>
         <hr />
         <ASection class="gallery-section">
-            <span class="text-s"><i>.</i></span>
+            <span class="text-s"><i>🦎</i></span>
         </ASection>
     </AContainer>
 </template>

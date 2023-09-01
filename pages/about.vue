@@ -6,11 +6,11 @@ const links = [{
     },
     to: '/portfolio',
 },
-// {
-//     label: 'writes',
-//     icon: 'i-heroicons-pencil-square',
-//     to: '/writes'
-// },
+{
+    label: 'writes',
+    icon: 'i-heroicons-pencil-square',
+    to: '/writes'
+},
 {
     label: 'gallery',
     icon: 'i-heroicons-square-3-stack-3d',
@@ -25,7 +25,7 @@ const links = [{
         <ASection class="about-block-section">
             <span class="text-2xl text-center">
                 Learning and working with Information Science, distilling simplicity out of evergrowing information and
-                persued complexities, turtle and part-time embarks forth towards wonders of tomorrow O:).
+                persued complexities, turtle embarks towards wonders of tomorrow O:).
             </span>
         </ASection>
         <hr />
@@ -34,22 +34,7 @@ const links = [{
         </ASection>
         <hr />
         <ASection class="about-block-section">
-            <AContainer>
-                <ContentDoc v-slot="{ doc }">
-                    <ContentRenderer class="text-2xl" :value="doc" />
-                </ContentDoc>
-                <template #not-found>
-                    <h1>Document not found</h1>
-                </template>
-            </AContainer>
-        </ASection>
-        <hr />
-        <ASection class="about-block-section">
-            .
-        </ASection>
-        <hr />
-        <ASection class="about-block-section">
-            <span class="text-xs"><i>*edit footnote*</i></span>
+            <span class="text-2xl">🌻</span>
         </ASection>
     </AContainer>
 </template>

@@ -1,2 +1,1 @@
-
-"sample" [first](/writes/first-post), [second](/writes/second-post) page, [log](/writes/log)
+ [first](/writes/first-post), [second](/writes/second-post) page, [log](/writes/log)

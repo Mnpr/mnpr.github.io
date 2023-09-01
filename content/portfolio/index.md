@@ -1,1 +1,1 @@
-⚘ s/w DevOps {👨‍💻};
+s/w Developer { };

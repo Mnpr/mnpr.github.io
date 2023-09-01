@@ -6,7 +6,11 @@
                 </u></h2>
         </ASection>
         <ASection class="text-2xl portfolio-section">
-            <span>MIE Student@ FH Kiel : Instruction/Test/Data Driven DevOps</span>
+            <span>MIE Student <b>@FH Kiel</b></span>
+        </ASection>
+        <hr />
+        <ASection class="text-xl portfolio-section">
+            <span>Instruction/Test/Data Driven Development</span>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
