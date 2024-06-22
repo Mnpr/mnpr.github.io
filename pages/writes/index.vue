@@ -1,7 +1,9 @@
 <template>
     <AContainer>
         <ASection class="text-5xl writes-section">
-            <h2><u>Blog</u></h2>
+            <h2>
+                <UIcon name="i-heroicons-pencil-square" />
+            </h2>
         </ASection>
         <ASection class="text-xl writes-section">
             ! self learning tags here...

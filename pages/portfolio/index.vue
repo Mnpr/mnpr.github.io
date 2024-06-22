@@ -1,16 +1,16 @@
 <template>
     <AContainer>
         <ASection class="text-5xl portfolio-section">
-            <h2><u>
-                    <UIcon name="i-heroicons-briefcase" />
-                </u></h2>
+            <h2>
+                <UIcon name="i-heroicons-briefcase" />
+            </h2>
         </ASection>
         <ASection class="text-2xl portfolio-section">
             <span>MIE Student <b>@FH Kiel</b></span>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
-            <span>Instruction/Test/Data Driven Development</span>
+            <span>Instruction/Data Driven Development</span>
         </ASection>
         <hr />
         <ASection class="text-xl portfolio-section">
@@ -43,7 +43,7 @@
         <hr />
         <ASection class="portfolio-section">
             <p class="text-xs"><i>
-                    <b>Causes:</b> Arts and Culture • Environment • Health • Libéré src & Decentralized
+                    <b>Causes:</b> Arts and Culture • Environment • Libéré src & Decentralized
                     systems.</i>
             </p>
         </ASection>

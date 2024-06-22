@@ -1,7 +1,9 @@
 <template>
     <AContainer>
         <ASection class="text-5xl gallery-section">
-            <h2><u>Gallery</u></h2>
+            <h2>
+                <UIcon name="i-heroicons-square-3-stack-3d" />
+            </h2>
         </ASection>
         <ASection class="text-xl gallery-section">
             ~

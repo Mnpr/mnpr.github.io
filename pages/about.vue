@@ -24,8 +24,7 @@ const links = [{
         </ASection>
         <ASection class="about-block-section">
             <span class="text-2xl text-center">
-                Learning and working with Information Science, distilling simplicity out of evergrowing information and
-                persued complexities, turtle embarks towards wonders of tomorrow O:).
+                Learning and working with Information Science, distilling simplicity out of evergrowing information, turtle embarks towards wonders of tomorrow O:).
             </span>
         </ASection>
         <hr />

@@ -12,9 +12,5 @@
                 </AContainer>
             </ACard>
         </AnArticle>
-        <hr />
-        <ASection class="flex justify-center">
-            foot nav >> next, prev here.
-        </ASection>
     </AContainer>
 </template>
