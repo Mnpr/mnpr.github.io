@@ -1,6 +1,7 @@
 dist
 .output
 .nuxt
+.yarn
 .nitro
 .cache
 node_modules

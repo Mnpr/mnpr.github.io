@@ -1,8 +1,14 @@
 // https://content.nuxtjs.org/api/configuration
 export default defineNuxtConfig({
-    devtools: { enabled: true },
+    devtools: {
+      enabled: true,
+
+      timeline: {
+        enabled: true,
+      },
+    },
     modules: [
-        '@nuxthq/ui',
+        '@nuxt/ui',
         '@nuxt/content',
         '@nuxt/image',
     ],
@@ -15,8 +21,12 @@ export default defineNuxtConfig({
     content: {
         highlight: {
             theme: {
-                default: 'material-palenight',
+                // Default theme (same as single string)
+                default: 'github-light',
+                // Theme used if `html.dark`
                 dark: 'github-dark',
+                // Theme used if `html.sepia`
+                sepia: 'monokai'
             }
         },
     },
