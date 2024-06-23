@@ -8,7 +8,6 @@
         <ASection class="text-2xl portfolio-section">
             <span>MIE Student <b>@FH Kiel</b></span>
         </ASection>
-        <hr />
         <ASection class="text-xl portfolio-section">
             <span>Instruction/Data Driven Development</span>
         </ASection>
@@ -35,7 +34,7 @@
                 <NuxtLink to="https://github.com/mnpr" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-github" />
                 </NuxtLink>
-                <NuxtLink to="https://www.linkedin.com/in/mnpr" target="_blank" class="out-link">
+                <NuxtLink to="https://www.linkedin.com/in/sud3sh/" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
             </span>
